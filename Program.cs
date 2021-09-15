@@ -11,7 +11,17 @@ namespace TestFailureHandler
         static async Task Main(string[] args)
         {
             List<string> failedTests =ProcessAllFailedTests("TestResults.xml");
-            await File.WriteAllLinesAsync("re-run.cmd", failedTests.ToArray());            
+            string fileName = "re-run.cmd";
+            string[] content = new string[1];
+            if (failedTests==null || failedTests.Count == 0)
+            {
+                await File.WriteAllLinesAsync(fileName, content);
+            }
+            else
+            {
+                await File.WriteAllLinesAsync(fileName, failedTests.ToArray());
+            }
+                       
         }
 
         static List<string> ProcessAllFailedTests(string testResultTrxFile)
