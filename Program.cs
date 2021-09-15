@@ -11,24 +11,24 @@ namespace TestFailureHandler
         static async Task Main(string[] args)
         {
             List<string> failedTests =ProcessAllFailedTests("TestResults.xml");
-            await File.WriteAllLinesAsync("re-run.cmd", failedTests.ToArray());
-            //foreach (string test in failedTests)
-            //{
-            //    Console.WriteLine(test);
-            //}
+            await File.WriteAllLinesAsync("re-run.cmd", failedTests.ToArray());            
         }
 
         static List<string> ProcessAllFailedTests(string testResultTrxFile)
         {
             if (!File.Exists(testResultTrxFile)) return null;
+
             XmlDocument doc = new XmlDocument();            
             doc.Load(testResultTrxFile);
+
             string summary = doc.GetElementsByTagName("ResultSummary")[0]
                 .Attributes["outcome"].Value.ToLower();
             if(!summary.Equals("failed")) return null;
+
             XmlNodeList testResults = doc.GetElementsByTagName("UnitTestResult");
             XmlNodeList testDefinitions = doc.GetElementsByTagName("UnitTest");
             List<string> failedTests = new List<string>();
+
             foreach(XmlNode testResult in testResults)
             {
                 string outcome = testResult.Attributes["outcome"].Value.ToLower();
