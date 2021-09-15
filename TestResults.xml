@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e07c6bc2-4e65-46b4-b6e5-3e1f3dda7bc9" name="fengxu@FENGVINCENTXU-H 2021-09-15 05:08:11" runUser="FENGVINCENTXU-H\fengxu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-09-15T05:08:11.7754550-07:00" queuing="2021-09-15T05:08:11.7754564-07:00" start="2021-09-15T05:07:38.8498123-07:00" finish="2021-09-15T05:11:09.7052839-07:00" />
+  <TestSettings name="default" id="b3b0f7a4-0a4b-49fc-b4e8-dfe745200794">
+    <Deployment runDeploymentRoot="fengxu_FENGVINCENTXU-H_2021-09-15_05_08_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="47133431-4ea4-41f0-ac88-0df6f6da18dd" testId="d05a9eb6-b969-488f-dda5-965cee408d67" testName="CreateGroupAndShareToTwitter" computerName="FENGVINCENTXU-H" duration="00:00:31.0560000" startTime="2021-09-15T05:09:24.0000000-07:00" endTime="2021-09-15T05:09:55.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47133431-4ea4-41f0-ac88-0df6f6da18dd">
+      <Output>
+        <StdOut>2021-09-15 05:09:24,778 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.GroupTest.CreateGroupAndShareToTwitter: Start-----------&#xD;
+2021-09-15 05:09:34,825 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Welcome window is NOT displayed because we have one or more groups, continue...&#xD;
+2021-09-15 05:09:35,789 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Start to clear all groups...&#xD;
+2021-09-15 05:09:36,172 [NonParallelWorker] INFO  POMFramework.Core.BasePage - We have 4 groups&#xD;
+2021-09-15 05:09:36,176 [NonParallelWorker] INFO  POMFramework.Core.BasePage - start to delete a group&#xD;
+2021-09-15 05:09:36,849 [NonParallelWorker] INFO  POMFramework.Core.BasePage - group is deleted&#xD;
+2021-09-15 05:09:37,416 [NonParallelWorker] INFO  POMFramework.Core.BasePage - start to delete a group&#xD;
+2021-09-15 05:09:38,035 [NonParallelWorker] INFO  POMFramework.Core.BasePage - group is deleted&#xD;
+2021-09-15 05:09:38,602 [NonParallelWorker] INFO  POMFramework.Core.BasePage - start to delete a group&#xD;
+2021-09-15 05:09:39,176 [NonParallelWorker] INFO  POMFramework.Core.BasePage - group is deleted&#xD;
+2021-09-15 05:09:39,733 [NonParallelWorker] INFO  POMFramework.Core.BasePage - start to delete a group&#xD;
+2021-09-15 05:09:40,274 [NonParallelWorker] INFO  POMFramework.Core.BasePage - group is deleted&#xD;
+2021-09-15 05:09:50,784 [NonParallelWorker] INFO  POMFramework.Core.BasePage - If we get here, it means we deleted group(s). If popup window is NOT displayed, fail the test&#xD;
+2021-09-15 05:09:50,813 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Close the popup&#xD;
+2021-09-15 05:09:50,854 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Create group [Group Redmond Bungee-308] with members [emilyhcl@outlook.com, andrewhcl@outlook.com]&#xD;
+2021-09-15 05:09:52,570 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Share to twitter: 240e21cf&#xD;
+2021-09-15 05:09:52,979 [NonParallelWorker] INFO  POMFramework.Core.BasePage - In order to avoid Twitter's security mechanism, we only check GroupJoinCode 240e21cf is included in url&#xD;
+2021-09-15 05:09:53,323 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Popup window's URL: https://twitter.com/intent/tweet?text=Check%20out%20this%20@Flipgrid%20Group!%20https%3A%2F%2Fflipgrid.com%2F240e21cf&#xD;
+2021-09-15 05:09:53,323 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Check target: https://twitter.com/intent/tweet?text=&#xD;
+2021-09-15 05:09:53,323 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Check Group Join Code: 240e21cf&#xD;
+2021-09-15 05:09:54,614 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Checking passed.&#xD;
+2021-09-15 05:09:55,374 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify we have the group Group Redmond Bungee-308&#xD;
+2021-09-15 05:09:55,835 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.GroupTest.CreateGroupAndShareToTwitter:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0b1b5ae1-8bfd-4568-b3cc-b42cc6fa7788" testId="5ff2a15e-0902-3e68-6926-bdfa6d912fed" testName="SocialConnectionTest" computerName="FENGVINCENTXU-H" duration="00:00:23.9780000" startTime="2021-09-15T05:09:00.0000000-07:00" endTime="2021-09-15T05:09:24.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b1b5ae1-8bfd-4568-b3cc-b42cc6fa7788">
+      <Output>
+        <StdOut>2021-09-15 05:09:00,800 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorProfileTest.SocialConnectionTest: Start-----------&#xD;
+2021-09-15 05:09:02,005 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click on Avatar&#xD;
+2021-09-15 05:09:02,475 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: select profile&#xD;
+2021-09-15 05:09:03,452 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: switch to pop up window&#xD;
+2021-09-15 05:09:04,566 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go back to parent window&#xD;
+2021-09-15 05:09:04,572 [NonParallelWorker] INFO  POMFramework.Core.BasePage - twitter sanity check passed: True&#xD;
+2021-09-15 05:09:05,392 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: switch to pop up window&#xD;
+2021-09-15 05:09:07,099 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go back to parent window&#xD;
+2021-09-15 05:09:07,103 [NonParallelWorker] INFO  POMFramework.Core.BasePage - instagram sanity check passed: True&#xD;
+2021-09-15 05:09:07,783 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: switch to pop up window&#xD;
+2021-09-15 05:09:09,928 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go back to parent window&#xD;
+2021-09-15 05:09:09,941 [NonParallelWorker] INFO  POMFramework.Core.BasePage - voxer sanity check passed: False&#xD;
+2021-09-15 05:09:10,713 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: switch to pop up window&#xD;
+2021-09-15 05:09:13,013 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go back to parent window&#xD;
+2021-09-15 05:09:13,018 [NonParallelWorker] INFO  POMFramework.Core.BasePage - skype sanity check passed: True&#xD;
+2021-09-15 05:09:13,811 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: switch to pop up window&#xD;
+2021-09-15 05:09:14,835 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go back to parent window&#xD;
+2021-09-15 05:09:14,839 [NonParallelWorker] INFO  POMFramework.Core.BasePage - facebook sanity check passed: True&#xD;
+2021-09-15 05:09:15,634 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: switch to pop up window&#xD;
+2021-09-15 05:09:16,572 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go back to parent window&#xD;
+2021-09-15 05:09:16,575 [NonParallelWorker] INFO  POMFramework.Core.BasePage - snapchat sanity check passed: True&#xD;
+2021-09-15 05:09:17,330 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: switch to pop up window&#xD;
+2021-09-15 05:09:19,620 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go back to parent window&#xD;
+2021-09-15 05:09:19,623 [NonParallelWorker] INFO  POMFramework.Core.BasePage - youtube sanity check passed: True&#xD;
+2021-09-15 05:09:20,531 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: switch to pop up window&#xD;
+2021-09-15 05:09:21,571 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go back to parent window&#xD;
+2021-09-15 05:09:21,575 [NonParallelWorker] INFO  POMFramework.Core.BasePage - linkedin sanity check passed: True&#xD;
+2021-09-15 05:09:21,636 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Click update profile button&#xD;
+2021-09-15 05:09:24,702 [NonParallelWorker] INFO  POMFramework.Core.BasePage - twitter overall check passed: True&#xD;
+2021-09-15 05:09:24,713 [NonParallelWorker] INFO  POMFramework.Core.BasePage - skype overall check passed: True&#xD;
+2021-09-15 05:09:24,726 [NonParallelWorker] INFO  POMFramework.Core.BasePage - facebook overall check passed: True&#xD;
+2021-09-15 05:09:24,738 [NonParallelWorker] INFO  POMFramework.Core.BasePage - snapchat overall check passed: True&#xD;
+2021-09-15 05:09:24,746 [NonParallelWorker] INFO  POMFramework.Core.BasePage - youtube overall check passed: True&#xD;
+2021-09-15 05:09:24,755 [NonParallelWorker] INFO  POMFramework.Core.BasePage - linkedin overall check passed: True&#xD;
+2021-09-15 05:09:24,766 [NonParallelWorker] INFO  POMFramework.Core.BasePage - instagram overall check passed: True&#xD;
+2021-09-15 05:09:24,778 [NonParallelWorker] INFO  POMFramework.Core.BasePage - voxer overall check passed: True&#xD;
+2021-09-15 05:09:24,778 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorProfileTest.SocialConnectionTest:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="10612c6c-a019-4845-95f8-a098fcc44a1e" testId="f54c1f18-5a1a-76f2-8cdf-d5cb9472da37" testName="CreateGroupTest" computerName="FENGVINCENTXU-H" duration="00:00:14.9310000" startTime="2021-09-15T05:09:55.0000000-07:00" endTime="2021-09-15T05:10:10.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10612c6c-a019-4845-95f8-a098fcc44a1e">
+      <Output>
+        <StdOut>2021-09-15 05:09:55,835 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.GroupTest.CreateGroupTest: Start-----------&#xD;
+2021-09-15 05:10:05,864 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Welcome window is NOT displayed because we have one or more groups, continue...&#xD;
+2021-09-15 05:10:05,881 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Create group [Group Redmond Bungee-883] with members []&#xD;
+2021-09-15 05:10:07,776 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify we have the group Group Redmond Bungee-883&#xD;
+2021-09-15 05:10:08,132 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Create group [Group Redmond Bungee-340] with members [emilyhcl@outlook.com, andrewhcl@outlook.com]&#xD;
+2021-09-15 05:10:10,473 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify we have the group Group Redmond Bungee-340&#xD;
+2021-09-15 05:10:10,766 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.GroupTest.CreateGroupTest:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b77df3ef-bb6c-4ca3-830d-66ca1e2a5f41" testId="001e117e-2b03-97f5-6397-d2441a079501" testName="CreateTopicTest" computerName="FENGVINCENTXU-H" duration="00:00:15.9160000" startTime="2021-09-15T05:10:38.0000000-07:00" endTime="2021-09-15T05:10:54.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b77df3ef-bb6c-4ca3-830d-66ca1e2a5f41">
+      <Output>
+        <StdOut>2021-09-15 05:10:38,462 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.TopicTests.CreateTopicTest: Start-----------&#xD;
+2021-09-15 05:10:49,172 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Welcome window is NOT displayed because we have one or more groups, continue...&#xD;
+2021-09-15 05:10:49,240 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Start to set topic name and description&#xD;
+2021-09-15 05:10:49,240 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Name is Topic Seattle Guide 245&#xD;
+2021-09-15 05:10:49,240 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Description is Introduce the beautiful place 245&#xD;
+2021-09-15 05:10:50,405 [NonParallelWorker] INFO  POMFramework.Core.BasePage - We selected the existing group Group Redmond Bungee-340&#xD;
+2021-09-15 05:10:52,666 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify that we have the topic with name Topic Seattle Guide 245&#xD;
+2021-09-15 05:10:53,800 [NonParallelWorker] INFO  POMFramework.Core.BasePage - We found the topic with name Topic Seattle Guide 245&#xD;
+2021-09-15 05:10:53,800 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify group [Group Redmond Bungee-340] contains topic [Topic Seattle Guide 245]&#xD;
+2021-09-15 05:10:54,117 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Group Redmond Bungee-340 group is found, click it to check what it has&#xD;
+2021-09-15 05:10:54,377 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Seattle Guide 245 topic is found&#xD;
+2021-09-15 05:10:54,377 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.TopicTests.CreateTopicTest:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2bcc9bda-6795-4b8e-99a8-fa619f9098b2" testId="d3ecf237-7dd7-410f-f817-1182fc3551a2" testName="MandatoryFieldsForTopicCreationTest" computerName="FENGVINCENTXU-H" duration="00:00:10.7670000" startTime="2021-09-15T05:10:54.0000000-07:00" endTime="2021-09-15T05:11:05.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bcc9bda-6795-4b8e-99a8-fa619f9098b2">
+      <Output>
+        <StdOut>2021-09-15 05:10:54,377 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.TopicTests.MandatoryFieldsForTopicCreationTest: Start-----------&#xD;
+2021-09-15 05:11:04,795 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Welcome window is NOT displayed because we have one or more groups, continue...&#xD;
+2021-09-15 05:11:05,060 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Name field has Mandatory star: True&#xD;
+2021-09-15 05:11:05,060 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Description field has Mandatory star:True&#xD;
+2021-09-15 05:11:05,144 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Empty Topic Name Error: True&#xD;
+2021-09-15 05:11:05,144 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Empty Topic Description Error: True&#xD;
+2021-09-15 05:11:05,144 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.TopicTests.MandatoryFieldsForTopicCreationTest:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4160cf91-efbd-4d1b-ac94-5b885c0a4fe1" testId="19b14c46-02cc-d9b5-0d21-81dca2daa2df" testName="DefaultTopicSettingsTest" computerName="FENGVINCENTXU-H" duration="00:00:16.2970000" startTime="2021-09-15T05:10:22.0000000-07:00" endTime="2021-09-15T05:10:38.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4160cf91-efbd-4d1b-ac94-5b885c0a4fe1">
+      <Output>
+        <StdOut>2021-09-15 05:10:22,164 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.ProfileDefaultTopicTest.DefaultTopicSettingsTest: Start-----------&#xD;
+2021-09-15 05:10:23,135 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click on Avatar&#xD;
+2021-09-15 05:10:23,590 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: select profile&#xD;
+2021-09-15 05:10:23,670 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Will update default topic settings with the following: ModerateVideoAndComments:True| RecordingTimeInSeconds: 300| Comments: Text| Closed Captions: SpanishMexico| Allow Attachment: False| Allow Likes on Video: True| Allow Download and share: False |Display View Count: False|Essentials: False| Expressions: False|StickyNotes: False&#xD;
+2021-09-15 05:10:24,443 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[0]: Moderate&#xD;
+2021-09-15 05:10:24,443 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[1]: AllowAttachment&#xD;
+2021-09-15 05:10:24,443 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[2]: AllowLikeOnVideo&#xD;
+2021-09-15 05:10:24,444 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[3]: AllowDownloadShare&#xD;
+2021-09-15 05:10:24,444 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[4]: DisplayViewCount&#xD;
+2021-09-15 05:10:24,444 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[5]: Essentials&#xD;
+2021-09-15 05:10:24,444 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[6]: Expressions&#xD;
+2021-09-15 05:10:24,444 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[7]: StickyNotes&#xD;
+2021-09-15 05:10:26,257 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Will check Default Topic Settings are truely applied:ModerateVideoAndComments:True| RecordingTimeInSeconds: 300| Comments: Text| Closed Captions: SpanishMexico| Allow Attachment: False| Allow Likes on Video: True| Allow Download and share: False |Display View Count: False|Essentials: False| Expressions: False|StickyNotes: False &#xD;
+2021-09-15 05:10:36,819 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Welcome window is NOT displayed because we have one or more groups, continue...&#xD;
+2021-09-15 05:10:36,952 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Check Recording time...&#xD;
+2021-09-15 05:10:37,093 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Actual Recording Time: 5 minutes&#xD;
+2021-09-15 05:10:37,093 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Expected Recording Time: 5 minutes&#xD;
+2021-09-15 05:10:37,146 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Expand Response and Camera sections...&#xD;
+2021-09-15 05:10:37,703 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Check toggles...&#xD;
+2021-09-15 05:10:37,710 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[0]: Moderate&#xD;
+2021-09-15 05:10:37,711 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[1]: AllowAttachment&#xD;
+2021-09-15 05:10:37,711 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[2]: AllowLikeOnVideo&#xD;
+2021-09-15 05:10:37,711 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[3]: AllowDownloadShare&#xD;
+2021-09-15 05:10:37,711 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[4]: DisplayViewCount&#xD;
+2021-09-15 05:10:37,711 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[5]: Essentials&#xD;
+2021-09-15 05:10:37,711 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[6]: Expressions&#xD;
+2021-09-15 05:10:37,711 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle[7]: StickyNotes&#xD;
+2021-09-15 05:10:37,720 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle [7] Actual Value is: False&#xD;
+2021-09-15 05:10:37,729 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle [6] Actual Value is: False&#xD;
+2021-09-15 05:10:37,736 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle [5] Actual Value is: False&#xD;
+2021-09-15 05:10:37,742 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle [4] Actual Value is: False&#xD;
+2021-09-15 05:10:37,749 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle [3] Actual Value is: False&#xD;
+2021-09-15 05:10:37,754 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle [2] Actual Value is: True&#xD;
+2021-09-15 05:10:37,763 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle [1] Actual Value is: False&#xD;
+2021-09-15 05:10:37,769 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Toggle [0] Actual Value is: True&#xD;
+2021-09-15 05:10:37,769 [NonParallelWorker] INFO  POMFramework.Core.BasePage - check Comments and Closed Captions...&#xD;
+2021-09-15 05:10:38,111 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Expected Caption: Spanish (Mexico), Actual Caption: Spanish (Mexico)&#xD;
+2021-09-15 05:10:38,461 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Expected Comment: Text Comments only, Actual Comment: Text Comments only&#xD;
+2021-09-15 05:10:38,461 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.ProfileDefaultTopicTest.DefaultTopicSettingsTest:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3068949e-9c5d-4e43-ae1e-ce858d0a81db" testId="b498a8a8-f0b0-ca9e-aa8e-b851f99c2340" testName="AddTopicToExistingGroup" computerName="FENGVINCENTXU-H" duration="00:00:06.7460000" startTime="2021-09-15T05:08:11.0000000-07:00" endTime="2021-09-15T05:08:18.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3068949e-9c5d-4e43-ae1e-ce858d0a81db">
+      <Output>
+        <StdOut>2021-09-15 05:08:11,734 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorDiscoveryTest.AddTopicToExistingGroup: Start-----------&#xD;
+2021-09-15 05:08:12,545 [NonParallelWorker] INFO  POMFramework.Core.BasePage - we have 3 groups&#xD;
+2021-09-15 05:08:12,580 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - We select the existing group Group Redmond Bungee-145&#xD;
+2021-09-15 05:08:12,917 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Group with name [Group Redmond Bungee-145] is selected for test &#xD;
+2021-09-15 05:08:13,731 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click the first ViewAll link on discovery page&#xD;
+2021-09-15 05:08:13,926 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Let's get introduced is selected for test&#xD;
+2021-09-15 05:08:14,180 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: scroll down to the bottom +AddTopic button&#xD;
+2021-09-15 05:08:14,180 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click the bottom +AddTopic button on topic detail pop-up&#xD;
+2021-09-15 05:08:15,067 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Group Group Redmond Bungee-145 is selected from dropdown list&#xD;
+2021-09-15 05:08:16,204 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify group [Group Redmond Bungee-145] contains topic [Let's get introduced]&#xD;
+2021-09-15 05:08:17,214 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Group Redmond Bungee-145 group is found, click it to check what it has&#xD;
+2021-09-15 05:08:17,653 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Let's get introduced topic is found&#xD;
+2021-09-15 05:08:17,653 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify that we have the topic with name Let's get introduced&#xD;
+2021-09-15 05:08:18,480 [NonParallelWorker] INFO  POMFramework.Core.BasePage - We found the topic with name Let's get introduced&#xD;
+2021-09-15 05:08:18,481 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorDiscoveryTest.AddTopicToExistingGroup:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed902253-2c46-4fff-9dca-bb9de9064526" testId="e429aeb5-8a68-4b34-1f1a-9f433b9247f9" testName="AccountSettingsUpdateTest" computerName="FENGVINCENTXU-H" duration="00:00:37.1180000" startTime="2021-09-15T05:08:23.0000000-07:00" endTime="2021-09-15T05:09:00.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed902253-2c46-4fff-9dca-bb9de9064526">
+      <Output>
+        <StdOut>2021-09-15 05:08:23,683 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorProfileTest.AccountSettingsUpdateTest: Start-----------&#xD;
+2021-09-15 05:08:23,751 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click on Avatar&#xD;
+2021-09-15 05:08:24,205 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: select profile&#xD;
+2021-09-15 05:08:24,205 [NonParallelWorker] INFO  POMFramework.Core.BasePage - By design, Country and TimeZone fields can NOT be cleared&#xD;
+2021-09-15 05:08:24,220 [NonParallelWorker] INFO  POMFramework.Core.BasePage - educator: get subject selections&#xD;
+2021-09-15 05:08:24,771 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Current Selections: Design and Applied Arts&#xD;
+2021-09-15 05:08:24,854 [NonParallelWorker] INFO  POMFramework.Core.BasePage - clear  F-2021-09-14-14-35&#xD;
+2021-09-15 05:08:25,257 [NonParallelWorker] INFO  POMFramework.Core.BasePage - clear  L-2021-09-14-14-35&#xD;
+2021-09-15 05:08:25,655 [NonParallelWorker] INFO  POMFramework.Core.BasePage - clear  DN-2021-09-14-14-35&#xD;
+2021-09-15 05:08:26,075 [NonParallelWorker] INFO  POMFramework.Core.BasePage - clear  ON-2021-09-14-14-35&#xD;
+2021-09-15 05:08:26,570 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Click update profile button&#xD;
+2021-09-15 05:09:00,800 [NonParallelWorker] ERROR Flipgrid.Tests.BaseTest - OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds&#xD;
+  ----&gt; OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Last name is required.']"}&#xD;
+  (Session info: MicrosoftEdge=93.0.961.47)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)&#xD;
+   at POMFramework.Core.Zen.WaitForElementToLoad(IWebDriver driver, By name, Int32 duration) in C:\Users\fengxu\GitHub\CsharpPOM\POMFramework\Core\Zen.cs:line 18&#xD;
+   at Flipgrid.Pages.ProfilePage.EmptyMandatoryFieldsNotAllowed() in C:\Users\fengxu\GitHub\CsharpPOM\POMFramework\Flipgrid.Pages\Profile\ProfilePage.cs:line 40&#xD;
+   at Flipgrid.Tests.EducatorProfileTest.AccountSettingsUpdateTest() in C:\Users\fengxu\GitHub\CsharpPOM\POMFramework\Flipgrid.Tests\EducatorProfileTest.cs:line 29&#xD;
+--NoSuchElementException&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)&#xD;
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass19_0.&lt;XPath&gt;b__0(ISearchContext context)&#xD;
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)&#xD;
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)&#xD;
+2021-09-15 05:09:00,800 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorProfileTest.AccountSettingsUpdateTest:Failed:Error-----------</StdOut>
+        <ErrorInfo>
+          <Message>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds&#xD;
+  ----&gt; OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Last name is required.']"}&#xD;
+  (Session info: MicrosoftEdge=93.0.961.47)</Message>
+          <StackTrace>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)&#xD;
+   at POMFramework.Core.Zen.WaitForElementToLoad(IWebDriver driver, By name, Int32 duration) in C:\Users\fengxu\GitHub\CsharpPOM\POMFramework\Core\Zen.cs:line 18&#xD;
+   at Flipgrid.Pages.ProfilePage.EmptyMandatoryFieldsNotAllowed() in C:\Users\fengxu\GitHub\CsharpPOM\POMFramework\Flipgrid.Pages\Profile\ProfilePage.cs:line 40&#xD;
+   at Flipgrid.Tests.EducatorProfileTest.AccountSettingsUpdateTest() in C:\Users\fengxu\GitHub\CsharpPOM\POMFramework\Flipgrid.Tests\EducatorProfileTest.cs:line 29&#xD;
+--NoSuchElementException&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)&#xD;
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass19_0.&lt;XPath&gt;b__0(ISearchContext context)&#xD;
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)&#xD;
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)&#xD;
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed378b9b-227a-4560-84b3-01e36c8033ae" testId="49b79105-19af-1e37-a6ef-bb04243be955" testName="AddTopicToNewGroupTest" computerName="FENGVINCENTXU-H" duration="00:00:05.1990000" startTime="2021-09-15T05:08:18.0000000-07:00" endTime="2021-09-15T05:08:23.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed378b9b-227a-4560-84b3-01e36c8033ae">
+      <Output>
+        <StdOut>2021-09-15 05:08:18,481 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorDiscoveryTest.AddTopicToNewGroupTest: Start-----------&#xD;
+2021-09-15 05:08:19,435 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click the first ViewAll link on discovery page&#xD;
+2021-09-15 05:08:19,708 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Insect Hunt! is selected for test&#xD;
+2021-09-15 05:08:19,978 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: scroll down to the bottom +AddTopic button&#xD;
+2021-09-15 05:08:19,978 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click the bottom +AddTopic button on topic detail pop-up&#xD;
+2021-09-15 05:08:20,740 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Group Windsor-423 group is created for test&#xD;
+2021-09-15 05:08:21,243 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify group [Group Windsor-423] contains topic [Insect Hunt!]&#xD;
+2021-09-15 05:08:22,525 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Group Windsor-423 group is found, click it to check what it has&#xD;
+2021-09-15 05:08:22,828 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Insect Hunt! topic is found&#xD;
+2021-09-15 05:08:22,828 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Verify that we have the topic with name Insect Hunt!&#xD;
+2021-09-15 05:08:23,680 [NonParallelWorker] INFO  POMFramework.Core.BasePage - We found the topic with name Insect Hunt!&#xD;
+2021-09-15 05:08:23,680 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorDiscoveryTest.AddTopicToNewGroupTest:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b50d4f39-2e18-441b-a03a-5ccf80b0055d" testId="75cbc2ba-66c0-9fda-1284-cd5da58edc50" testName="MandatoryFieldsForGroupCreationTest" computerName="FENGVINCENTXU-H" duration="00:00:11.3980000" startTime="2021-09-15T05:10:10.0000000-07:00" endTime="2021-09-15T05:10:22.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b50d4f39-2e18-441b-a03a-5ccf80b0055d">
+      <Output>
+        <StdOut>2021-09-15 05:10:10,766 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.GroupTest.MandatoryFieldsForGroupCreationTest: Start-----------&#xD;
+2021-09-15 05:10:20,829 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Welcome window is NOT displayed because we have one or more groups, continue...&#xD;
+2021-09-15 05:10:21,081 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Group Name field has Mandatory star:True&#xD;
+2021-09-15 05:10:22,164 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Empty Group Name Error: True&#xD;
+2021-09-15 05:10:22,164 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.GroupTest.MandatoryFieldsForGroupCreationTest:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c5e71d5b-7fda-4dd5-9509-f9149275c38a" testId="bcf419ac-0324-6ece-23fc-1d538fc4395e" testName="AddTopicToCollectionTest" computerName="FENGVINCENTXU-H" duration="00:00:20.4510000" startTime="2021-09-15T05:07:51.0000000-07:00" endTime="2021-09-15T05:08:11.0000000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5e71d5b-7fda-4dd5-9509-f9149275c38a">
+      <Output>
+        <StdOut>2021-09-15 05:07:51,286 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorDiscoveryTest.AddTopicToCollectionTest: Start-----------&#xD;
+2021-09-15 05:07:51,846 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go to My Library to clear it&#xD;
+2021-09-15 05:07:52,608 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click three-dot on my collection detail page&#xD;
+2021-09-15 05:07:54,207 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click three-dot on my collection detail page&#xD;
+2021-09-15 05:07:55,322 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go to My Library &#xD;
+2021-09-15 05:08:05,447 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click NewCollection button&#xD;
+2021-09-15 05:08:05,800 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click Add button while creating new collection&#xD;
+2021-09-15 05:08:05,800 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Hot-633 collection is created&#xD;
+2021-09-15 05:08:05,800 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Existing collection Hot-633 is selected for test&#xD;
+2021-09-15 05:08:05,800 [NonParallelWorker] INFO  POMFramework.Core.BasePage - New collection MyFav-96 will be created.&#xD;
+2021-09-15 05:08:06,003 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click the first ViewAll link on discovery page&#xD;
+2021-09-15 05:08:06,730 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Insect Hunt! is selected for test&#xD;
+2021-09-15 05:08:06,993 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: scroll down to the bottom +AddTopic button&#xD;
+2021-09-15 05:08:06,993 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click the bottom +AddTopic button on topic detail pop-up&#xD;
+2021-09-15 05:08:07,231 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Add to new collection MyFav-96&#xD;
+2021-09-15 05:08:07,398 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Add to existing collection Hot-633&#xD;
+2021-09-15 05:08:07,450 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: click collection dropdown field&#xD;
+2021-09-15 05:08:07,586 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Hot-633 is selected&#xD;
+2021-09-15 05:08:09,783 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go to discovery page...&#xD;
+2021-09-15 05:08:10,110 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go to My Library to verify the topic is added to collection&#xD;
+2021-09-15 05:08:10,110 [NonParallelWorker] INFO  POMFramework.Core.BasePage - verify Collection Hot-633 contains Topic Insect Hunt! &#xD;
+2021-09-15 05:08:10,274 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Collection Hot-633 is found,click it to check what it has&#xD;
+2021-09-15 05:08:10,550 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Insect Hunt! is found&#xD;
+2021-09-15 05:08:11,048 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go to discovery page...&#xD;
+2021-09-15 05:08:11,410 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Educator: go to My Library to verify the topic is added to collection&#xD;
+2021-09-15 05:08:11,410 [NonParallelWorker] INFO  POMFramework.Core.BasePage - verify Collection MyFav-96 contains Topic Insect Hunt! &#xD;
+2021-09-15 05:08:11,521 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Collection MyFav-96 is found,click it to check what it has&#xD;
+2021-09-15 05:08:11,731 [NonParallelWorker] INFO  POMFramework.Core.BasePage - Topic Insect Hunt! is found&#xD;
+2021-09-15 05:08:11,732 [NonParallelWorker] INFO  Flipgrid.Tests.BaseTest - ----------Flipgrid.Tests.EducatorDiscoveryTest.AddTopicToCollectionTest:Passed-----------</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DefaultTopicSettingsTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="19b14c46-02cc-d9b5-0d21-81dca2daa2df">
+      <Execution id="4160cf91-efbd-4d1b-ac94-5b885c0a4fe1" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.ProfileDefaultTopicTest" name="DefaultTopicSettingsTest" />
+    </UnitTest>
+    <UnitTest name="CreateGroupAndShareToTwitter" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="d05a9eb6-b969-488f-dda5-965cee408d67">
+      <Execution id="47133431-4ea4-41f0-ac88-0df6f6da18dd" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.GroupTest" name="CreateGroupAndShareToTwitter" />
+    </UnitTest>
+    <UnitTest name="SocialConnectionTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="5ff2a15e-0902-3e68-6926-bdfa6d912fed">
+      <Execution id="0b1b5ae1-8bfd-4568-b3cc-b42cc6fa7788" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.EducatorProfileTest" name="SocialConnectionTest" />
+    </UnitTest>
+    <UnitTest name="MandatoryFieldsForTopicCreationTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="d3ecf237-7dd7-410f-f817-1182fc3551a2">
+      <Execution id="2bcc9bda-6795-4b8e-99a8-fa619f9098b2" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.TopicTests" name="MandatoryFieldsForTopicCreationTest" />
+    </UnitTest>
+    <UnitTest name="CreateTopicTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="001e117e-2b03-97f5-6397-d2441a079501">
+      <Execution id="b77df3ef-bb6c-4ca3-830d-66ca1e2a5f41" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.TopicTests" name="CreateTopicTest" />
+    </UnitTest>
+    <UnitTest name="CreateGroupTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="f54c1f18-5a1a-76f2-8cdf-d5cb9472da37">
+      <Execution id="10612c6c-a019-4845-95f8-a098fcc44a1e" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.GroupTest" name="CreateGroupTest" />
+    </UnitTest>
+    <UnitTest name="AddTopicToNewGroupTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="49b79105-19af-1e37-a6ef-bb04243be955">
+      <Execution id="ed378b9b-227a-4560-84b3-01e36c8033ae" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.EducatorDiscoveryTest" name="AddTopicToNewGroupTest" />
+    </UnitTest>
+    <UnitTest name="MandatoryFieldsForGroupCreationTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="75cbc2ba-66c0-9fda-1284-cd5da58edc50">
+      <Execution id="b50d4f39-2e18-441b-a03a-5ccf80b0055d" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.GroupTest" name="MandatoryFieldsForGroupCreationTest" />
+    </UnitTest>
+    <UnitTest name="AddTopicToExistingGroup" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="b498a8a8-f0b0-ca9e-aa8e-b851f99c2340">
+      <Execution id="3068949e-9c5d-4e43-ae1e-ce858d0a81db" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.EducatorDiscoveryTest" name="AddTopicToExistingGroup" />
+    </UnitTest>
+    <UnitTest name="AccountSettingsUpdateTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="e429aeb5-8a68-4b34-1f1a-9f433b9247f9">
+      <Execution id="ed902253-2c46-4fff-9dca-bb9de9064526" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.EducatorProfileTest" name="AccountSettingsUpdateTest" />
+    </UnitTest>
+    <UnitTest name="AddTopicToCollectionTest" storage="c:\users\fengxu\.jenkins\workspace\flipgriduitests\pomframework.dll" id="bcf419ac-0324-6ece-23fc-1d538fc4395e">
+      <Execution id="c5e71d5b-7fda-4dd5-9509-f9149275c38a" />
+      <TestMethod codeBase="C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll" adapterTypeName="executor://nunit3testexecutor/" className="Flipgrid.Tests.EducatorDiscoveryTest" name="AddTopicToCollectionTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d05a9eb6-b969-488f-dda5-965cee408d67" executionId="47133431-4ea4-41f0-ac88-0df6f6da18dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ff2a15e-0902-3e68-6926-bdfa6d912fed" executionId="0b1b5ae1-8bfd-4568-b3cc-b42cc6fa7788" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f54c1f18-5a1a-76f2-8cdf-d5cb9472da37" executionId="10612c6c-a019-4845-95f8-a098fcc44a1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="001e117e-2b03-97f5-6397-d2441a079501" executionId="b77df3ef-bb6c-4ca3-830d-66ca1e2a5f41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3ecf237-7dd7-410f-f817-1182fc3551a2" executionId="2bcc9bda-6795-4b8e-99a8-fa619f9098b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19b14c46-02cc-d9b5-0d21-81dca2daa2df" executionId="4160cf91-efbd-4d1b-ac94-5b885c0a4fe1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b498a8a8-f0b0-ca9e-aa8e-b851f99c2340" executionId="3068949e-9c5d-4e43-ae1e-ce858d0a81db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e429aeb5-8a68-4b34-1f1a-9f433b9247f9" executionId="ed902253-2c46-4fff-9dca-bb9de9064526" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49b79105-19af-1e37-a6ef-bb04243be955" executionId="ed378b9b-227a-4560-84b3-01e36c8033ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75cbc2ba-66c0-9fda-1284-cd5da58edc50" executionId="b50d4f39-2e18-441b-a03a-5ccf80b0055d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcf419ac-0324-6ece-23fc-1d538fc4395e" executionId="c5e71d5b-7fda-4dd5-9509-f9149275c38a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="10" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.16.1.0: Test execution started&#xD;
+Running all tests in C:\Users\fengxu\.jenkins\workspace\FlipgridUITests\POMFramework.dll&#xD;
+   NUnit3TestExecutor converted 11 of 11 NUnit test cases&#xD;
+NUnit Adapter 3.16.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
